@@ -56,3 +56,23 @@ body {
     height: 100px;
     font-size: 90px;
 }
+
+#checkers-board{
+    display: grid;
+    width: calc(8*75px);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+#checkers-board > .square{
+    width: 75px;
+    height: 75px;
+}
+
+.red {
+    background-color: red;
+}
+
+.black{
+    background-color: black;
+}
